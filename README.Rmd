@@ -71,5 +71,5 @@ cat('<p style="text-align:center;"><img src="man/figures/sv_satellites_all.svg">
 ```
 
 ```{r md_doc3, echo = FALSE, results = "asis", eval = is_md}
-cat('[Package reference and function documentation](https://leonawicz.github.io/snaputils/)')
+cat('[Package reference and function documentation](https://leonawicz.github.io/maputils/)')
 ```
