@@ -20,9 +20,11 @@ Suggests:
     covr
 VignetteBuilder: knitr
 Imports: 
+    magrittr,
     dplyr,
     purrr,
     tibble,
     apputils
 Remotes:
     leonawicz/apputils
+RoxygenNote: 6.0.1
