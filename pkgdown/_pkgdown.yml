@@ -19,6 +19,10 @@ reference:
 - title: Basic metadata
   contents:
   - mapdata
+- title: Leaflet
+  contents:
+  - build_mapset
+  - update_mapset
 - title: Data sets
   contents:
   - akcan
