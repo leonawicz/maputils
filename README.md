@@ -49,4 +49,4 @@ The complete set of satellite packages is shown below.
 </p>
 <br>
 
-[Package reference and function documentation](https://leonawicz.github.io/snaputils/)
+[Package reference and function documentation](https://leonawicz.github.io/maputils/)
