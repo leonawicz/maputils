@@ -20,6 +20,7 @@ Suggests:
     covr
 VignetteBuilder: knitr
 Imports: 
+    sp,
     shiny,
     leaflet,
     magrittr,
