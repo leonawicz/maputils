@@ -1,8 +1,8 @@
 ---
-title: "Introduction to apputils"
+title: "Introduction to maputils"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Introduction to apputils}
+  %\VignetteIndexEntry{Introduction to maputils}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
