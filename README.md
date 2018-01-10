@@ -5,7 +5,7 @@ maputils
 
 [![Travis-CI Build Status](https://travis-ci.org/leonawicz/maputils.svg?branch=master)](https://travis-ci.org/leonawicz/maputils) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/leonawicz/maputils?branch=master&svg=true)](https://ci.appveyor.com/project/leonawicz/maputils) [![Coverage Status](https://img.shields.io/codecov/c/github/leonawicz/maputils/master.svg)](https://codecov.io/github/leonawicz/maputils?branch=master)
 
-`maputils` contains Leaflet-related utilities for Shiny app development in a SNAP context. The package inherits from [`apputils`](https://leonawicz.github.io/apputils/), which contains common utility functions, settings and references for use across multiple Shiny apps. It is also imported by [`snaputils`](https://leonawicz.github.io/snaputils/), which contains more general utility functions and support for Shiny apps specific to a SNAP context. All three packages are satellite members of the SNAPverse collection of R packages.
+`maputils` contains Leaflet-related utilities for Shiny app development in a SNAP context. The package inherits from [`apputils`](https://leonawicz.github.io/apputils/), which contains common utility functions, settings and references for use across multiple Shiny apps. It is also imported by [`snaputils`](https://leonawicz.github.io/snaputils/), which contains more general utility functions and support for Shiny apps specific to a SNAP context. All three packages are satellite members of the [SNAPverse](https://leonawicz.github.io/snapverse/) collection of R packages.
 
 `maputils` contains `SpatialPolygonsDataFrame` data sets useful in SNAP Shiny apps for visual representation of geographic regions via Leaflet maps. These data sets are simplified derivations of the maps offered by the [`snappoly`](https://leonawicz.github.io/snappoly/) package, containing fewer vertices. This allows them to be used for efficient map display in apps without slowing apps down due to unnecessarily high map resolution. Use the maps in `maputils` only for Leaflet widgets in apps. For data analysis, e.g., extracting data by polygon, use the higher resolution source maps in `snappoly`.
 
@@ -49,4 +49,4 @@ The complete set of satellite packages is shown below.
 </p>
 <br>
 
-[Package reference and function documentation](https://leonawicz.github.io/maputils/)
+[Complete package reference and function documentation](https://leonawicz.github.io/maputils/)

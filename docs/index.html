@@ -89,6 +89,9 @@
       <a href="https://leonawicz.github.io/snapstat">snapstat</a>
     </li>
     <li>
+      <a href="https://leonawicz.github.io/snapplot">snapplot</a>
+    </li>
+    <li>
       <a href="https://leonawicz.github.io/snaplocs">snaplocs</a>
     </li>
     <li>
@@ -180,7 +183,7 @@
 <div class="page-header"><h1 class="hasAnchor">
 <a href="#maputils" class="anchor"></a>maputils</h1></div>
 
-<p><code>maputils</code> contains Leaflet-related utilities for Shiny app development in a SNAP context. The package inherits from <a href="https://leonawicz.github.io/apputils/"><code>apputils</code></a>, which contains common utility functions, settings and references for use across multiple Shiny apps. It is also imported by <a href="https://leonawicz.github.io/snaputils/"><code>snaputils</code></a>, which contains more general utility functions and support for Shiny apps specific to a SNAP context. All three packages are satellite members of the SNAPverse collection of R packages.</p>
+<p><code>maputils</code> contains Leaflet-related utilities for Shiny app development in a SNAP context. The package inherits from <a href="https://leonawicz.github.io/apputils/"><code>apputils</code></a>, which contains common utility functions, settings and references for use across multiple Shiny apps. It is also imported by <a href="https://leonawicz.github.io/snaputils/"><code>snaputils</code></a>, which contains more general utility functions and support for Shiny apps specific to a SNAP context. All three packages are satellite members of the <a href="https://leonawicz.github.io/snapverse/">SNAPverse</a> collection of R packages.</p>
 <p><code>maputils</code> contains <code>SpatialPolygonsDataFrame</code> data sets useful in SNAP Shiny apps for visual representation of geographic regions via Leaflet maps. These data sets are simplified derivations of the maps offered by the <a href="https://leonawicz.github.io/snappoly/"><code>snappoly</code></a> package, containing fewer vertices. This allows them to be used for efficient map display in apps without slowing apps down due to unnecessarily high map resolution. Use the maps in <code>maputils</code> only for Leaflet widgets in apps. For data analysis, e.g., extracting data by polygon, use the higher resolution source maps in <code>snappoly</code>.</p>
 <p>Each map is in WGS84 lon/lat rather than NAD83 Alaska Albers like the source maps in <code>snappoly</code>. There are slight differences in derived maps from the <code>snappoly</code> source maps as noted below.</p>
 <p>There are ten available maps:</p>
