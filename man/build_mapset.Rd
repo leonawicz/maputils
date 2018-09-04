@@ -7,7 +7,8 @@
 build_mapset(shp, all_regions, ids, mapset, mapsets, default = "",
   default.name = default, all_locs_shapefile, xyz, color = c("#000000",
   "#000000", "#3C8DBC"), fill = c("#000000", "#3C8DBC", "#3C8DBC"),
-  color_opacity = c(0.5, 1, 1), fill_opacity = c(0, 0, 0.4), progress = F)
+  color_opacity = c(0.5, 1, 1), fill_opacity = c(0, 0, 0.4),
+  progress = F)
 }
 \arguments{
 \item{shp}{a shapefile pertaining to a single \code{mapset}.}

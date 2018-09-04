@@ -5,9 +5,9 @@
 \title{Update leaflet map in map set context}
 \usage{
 update_mapset(trigger, shp, mapset, ids, selected_regions, all_regions,
-  all_locs, all_locs_shapefile = all_locs, default = "", click_id, session,
-  map = "Map", color = "#3C8DBC", fill = color, color_opacity = 1,
-  fill_opacity = 0.4)
+  all_locs, all_locs_shapefile = all_locs, default = "", click_id,
+  session, map = "Map", color = "#3C8DBC", fill = color,
+  color_opacity = 1, fill_opacity = 0.4)
 }
 \arguments{
 \item{trigger}{character, \code{"selectInput"} or \code{"mapclick"}. Must used both in an app. See details.}
